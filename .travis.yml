@@ -9,8 +9,8 @@ arch:
   - ppc64le
 
 before_script:
-  - apt update -y
-  - apt-get install chromium-browser-l10n
+  - sudo apt update -y
+  - sudo apt-get install chromium-browser-l10n
 
 install:
   - npm install
